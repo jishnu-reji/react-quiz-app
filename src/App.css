@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.cc{
+    background-color: #2e3551;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.mm{
+    background-color: #7fc8fd;
+}
+
+@media(max-width:450px){
+    .cc{
+        width: 90% !important;
+        height: auto !important;
+    }
+    .dd{
+        height: 400px !important;
+    }
+}
